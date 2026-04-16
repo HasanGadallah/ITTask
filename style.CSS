@@ -1,0 +1,27 @@
+/* تنسيق عام */
+body { font-family: 'Segoe UI', Tahoma, sans-serif; margin: 0; padding: 0; background-color: #f4f7f6; color: #333; }
+header { background: #2c3e50; color: #fff; padding: 20px; text-align: center; }
+footer { background: #2c3e50; color: #fff; text-align: center; padding: 10px; margin-top: 20px; }
+
+/* شريط التنقل */
+nav { background: #34495e; padding: 10px; text-align: center; }
+nav a { color: white; text-decoration: none; padding: 10px 20px; transition: 0.3s; }
+nav a:hover { background: #e67e22; border-radius: 5px; }
+
+/* المحتوى */
+main { padding: 20px; max-width: 900px; margin: auto; background: white; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+
+/* الجدول */
+table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+th, td { padding: 12px; border: 1px solid #ddd; text-align: left; }
+th { background: #34495e; color: white; }
+tr:hover { background: #f1f1f1; }
+
+/* النموذج */
+form { display: flex; flex-direction: column; gap: 15px; }
+input, textarea { padding: 10px; border: 1px solid #ccc; border-radius: 4px; }
+button { background: #27ae60; color: white; padding: 10px; border: none; cursor: pointer; transition: 0.3s; }
+button:hover { background: #2ecc71; }
+
+/* التجاوب */
+@media (max-width: 600px) { nav a { display: block; margin: 5px 0; } }
